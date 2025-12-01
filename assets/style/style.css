@@ -1,0 +1,44 @@
+:root {
+  /* colors */
+
+  --color-navy-950: #0e1323;
+  --color-navy-900: #1c204b;
+  --color-navy-800: #33397a;
+  --color-navy-200: #bbc0ff;
+  --color-orange-300: #ff8b64;
+  --color-purple-700: #7335d2;
+  --color-purple-600: #5747ea;
+  --color-purple-500: #7078c9;
+  --color-blue-300: #55c2e6;
+  --color-pink-400: #ff5e7d;
+  --color-green-400: #4bcf82;
+  --color-yellow-300: #f1c75b;
+  --color-gray-200: #d8d8d8;
+
+  /* typo */
+  --fs-p1: 5.6rem;
+  --lh-p1: 6.6rem;
+  --fs-p2: 4rem;
+  --lh-p2: 4.7rem;
+  --fs-p3: 3.2rem;
+  --lh-p3: 3.8rem;
+  --fs-p4: 2.4rem;
+  --fs-p4: 2.8rem;
+  --fs-p5: 1.8rem;
+  --lh-p5: 2.1rem;
+  --lh-p6: 1.5rem;
+  --lh-p6: 1.8rem;
+
+  /* space */
+  --space-0: 0rem;
+  --space-100: 0.8rem;
+  --space-200: 1.6rem;
+  --space-300: 2.4rem;
+  --space-400: 3.2rem;
+  --space-500: 4rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
