@@ -26,7 +26,7 @@
   --fs-p4: 2.8rem;
   --fs-p5: 1.8rem;
   --lh-p5: 2.1rem;
-  --lh-p6: 1.5rem;
+  --fs-p6: 1.5rem;
   --lh-p6: 1.8rem;
 
   /* space */
@@ -42,3 +42,66 @@ html {
   font-size: 62.5%;
 }
 
+/* btn */
+
+/*card*/
+.card {
+  position: relative;
+  background-color: var(--color-orange-300);
+  max-width: 25.5rem;
+  border-radius: 1.5rem;
+  color: white;
+  padding-top: 4.5rem;
+}
+
+.card--icon {
+  position: absolute;
+  z-index: 1;
+  right: var(--space-300);
+  top: -1.1rem;
+}
+.btn:hover path {
+  fill: white;
+}
+.card--content {
+  position: relative;
+  z-index: 10;
+  background-color: var(--color-navy-900);
+  border-radius: 1.5rem;
+  padding: var(--space-400);
+}
+.card--content:hover {
+  background-color: var(--color-navy-800);
+}
+.content--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-300);
+}
+
+.btn {
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  color: inherit;
+}
+
+.card--title {
+  font-size: var(--fs-p5);
+  line-height: var(--lh-p6);
+  font-weight: 500;
+}
+
+.card--time {
+  font-size: var(--fs-p1);
+  line-height: var(--lh-p1);
+  font-weight: 300;
+  margin-bottom: var(--space-100);
+}
+.card--detail {
+  font-size: var(--fs-p6);
+  line-height: var(--lh-p6);
+  color: var(--color-navy-200);
+  font-weight: 400;
+}
