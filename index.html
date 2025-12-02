@@ -28,9 +28,9 @@
           </div>
         </div>
         <div class="time--blocke__footer">
-          <button class="set--time daily">Daily</button>
-          <button class="set--time weekly">Weekly</button>
-          <button class="set--time monthly">Monthly</button>
+          <button class="set--time daily selected" value="daily">Daily</button>
+          <button class="set--time weekly" value="weekly">Weekly</button>
+          <button class="set--time monthly" value="monthly">Monthly</button>
         </div>
       </section>
 
@@ -48,8 +48,8 @@
             </svg>
           </button>
           <div class="content--footer">
-            <h3 class="card--time">32hrs</h3>
-            <span class="card--detail">Last Week - 36hrs</span>
+            <h3 class="card--time" data-id="Work">32hrs</h3>
+            <span class="card--detail" data-id="Work">Last Week - 36hrs</span>
           </div>
         </div>
       </section>
@@ -58,7 +58,7 @@
         <img class="card--icon" src="./assets/images/icon-play.svg" alt="" />
         <div class="card--content">
           <button class="content--header btn">
-            <h2 class="card--title">Work</h2>
+            <h2 class="card--title">Play</h2>
             <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
@@ -68,8 +68,8 @@
             </svg>
           </button>
           <div class="content--footer">
-            <h3 class="card--time">32hrs</h3>
-            <span class="card--detail">Last Week - 36hrs</span>
+            <h3 class="card--time" data-id="Play">32hrs</h3>
+            <span class="card--detail" data-id="Play">Last Week - 36hrs</span>
           </div>
         </div>
       </section>
@@ -78,7 +78,7 @@
         <img class="card--icon" src="./assets/images/icon-study.svg" alt="" />
         <div class="card--content">
           <button class="content--header btn">
-            <h2 class="card--title">Work</h2>
+            <h2 class="card--title">Study</h2>
             <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
@@ -88,8 +88,8 @@
             </svg>
           </button>
           <div class="content--footer">
-            <h3 class="card--time">32hrs</h3>
-            <span class="card--detail">Last Week - 36hrs</span>
+            <h3 class="card--time" data-id="Study">32hrs</h3>
+            <span class="card--detail" data-id="Study">Last Week - 36hrs</span>
           </div>
         </div>
       </section>
@@ -102,7 +102,7 @@
         />
         <div class="card--content">
           <button class="content--header btn">
-            <h2 class="card--title">Work</h2>
+            <h2 class="card--title">Exercise</h2>
             <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
@@ -112,8 +112,10 @@
             </svg>
           </button>
           <div class="content--footer">
-            <h3 class="card--time">32hrs</h3>
-            <span class="card--detail">Last Week - 36hrs</span>
+            <h3 class="card--time" data-id="Exercise">32hrs</h3>
+            <span class="card--detail" data-id="Exercise"
+              >Last Week - 36hrs</span
+            >
           </div>
         </div>
       </section>
@@ -122,7 +124,7 @@
         <img class="card--icon" src="./assets/images/icon-social.svg" alt="" />
         <div class="card--content">
           <button class="content--header btn">
-            <h2 class="card--title">Work</h2>
+            <h2 class="card--title">Social</h2>
             <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
@@ -132,8 +134,8 @@
             </svg>
           </button>
           <div class="content--footer">
-            <h3 class="card--time">32hrs</h3>
-            <span class="card--detail">Last Week - 36hrs</span>
+            <h3 class="card--time" data-id="Social">32hrs</h3>
+            <span class="card--detail" data-id="Social">Last Week - 36hrs</span>
           </div>
         </div>
       </section>
@@ -146,7 +148,7 @@
         />
         <div class="card--content">
           <button class="content--header btn">
-            <h2 class="card--title">Work</h2>
+            <h2 class="card--title">Self Care</h2>
             <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
@@ -156,8 +158,10 @@
             </svg>
           </button>
           <div class="content--footer">
-            <h3 class="card--time">32hrs</h3>
-            <span class="card--detail">Last Week - 36hrs</span>
+            <h3 class="card--time" data-id="SelfCare">32hrs</h3>
+            <span class="card--detail" data-id="Self Care"
+              >Last Week - 36hrs</span
+            >
           </div>
         </div>
       </section>
