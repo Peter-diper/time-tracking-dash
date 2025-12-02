@@ -22,9 +22,8 @@ function add(e) {
 
 //! dont look at this code XD
 async function getData() {
-  const url = `../../data.json`;
   try {
-    const response = await fetch(url);
+    const response = await fetch(`data.json`);
     if (!response.ok) {
       throw new Error(`response is not ok : ${!response.status}`);
     }
