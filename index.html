@@ -28,9 +28,27 @@
           </div>
         </div>
         <div class="time--blocke__footer">
-          <button class="set--time daily selected" value="daily">Daily</button>
-          <button class="set--time weekly" value="weekly">Weekly</button>
-          <button class="set--time monthly" value="monthly">Monthly</button>
+          <button
+            class="set--time daily selected"
+            type="button"
+            data-btn-value="daily"
+          >
+            Daily
+          </button>
+          <button
+            type="button"
+            class="set--time weekly"
+            data-btn-value="weekly"
+          >
+            Weekly
+          </button>
+          <button
+            type="button"
+            class="set--time monthly"
+            data-btn-value="monthly"
+          >
+            Monthly
+          </button>
         </div>
       </section>
 
@@ -68,8 +86,10 @@
             </svg>
           </button>
           <div class="content--footer">
-            <h3 class="card--time" data-id="Play">32hrs</h3>
-            <span class="card--detail" data-id="Play">Last Week - 36hrs</span>
+            <h3 class="card--time time--now" data-id="Play">32hrs</h3>
+            <span class="card--detail time--old" data-id="Play"
+              >Last Week - 36hrs</span
+            >
           </div>
         </div>
       </section>
