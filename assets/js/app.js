@@ -13,7 +13,6 @@ async function getData() {
     const fetchData = result.find(
       (data) => data.title === cardTitle.textContent
     ).timeframes;
-    console.log(fetchData);
 
     btns.forEach((btn) => {
       const btnId = btn.dataset.btnValue;
